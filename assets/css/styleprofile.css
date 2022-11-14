@@ -1,0 +1,16 @@
+
+
+@font-face {
+    font-family: 'Noto Serif';
+    src:  url('/assets/fonts/Noto_Serif/NotoSerif-Bold.ttf') format('truetype');
+  }
+
+
+.navbar{
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    padding: 30px;
+    color: #A06DC8;
+    font-family: 'Noto Serif';
+}
