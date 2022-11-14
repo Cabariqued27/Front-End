@@ -5,6 +5,12 @@
     src:  url('/assets/fonts/Noto_Serif/NotoSerif-Bold.ttf') format('truetype');
   }
 
+  @font-face {
+    font-family: 'Open Sans bold';
+    src:  url('/assets/fonts/open-sans/OpenSans-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+  }
+
 
 .navbar{
     background-color: #FFFFFF;
@@ -13,4 +19,51 @@
     padding: 30px;
     color: #A06DC8;
     font-family: 'Noto Serif';
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.cardx{
+  width: 1552px;
+  height: 400px;
+    background-color: #FFFFFF;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    padding: 30px;
+    color: #B2A8D2;
+    font-family: 'Open Sans bold';
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+    text-align: center;
+}
+
+.opciones{
+    background-color: #E9DDF2;
+    width: 243px;
+    height: 223px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.opciones1{
+  background-color: #E9DDF2;
+  width: 243px;
+  height: 223px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.opciones img{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+footer{
+  text-align: center;
 }
