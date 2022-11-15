@@ -22,6 +22,35 @@
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
+.navbar .cerrar-sesion{
+    color: #A06DC8;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    border: 2px solid #A06DC8;
+    text-align: center;
+    font-family: 'Noto Serif';
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar .cerrar-sesion:hover{
+    background-color: #A06DC8;
+    
+   
+}
+
+.navbar .cerrar-sesion:hover a{
+    color: #FFFFFF;
+}
+
+.navbar .cerrar-sesion a{
+    color: #A06DC8;
+    text-decoration: none;
+    
+}
+
 .cardx{
   width: 1552px;
   height: 400px;
@@ -59,6 +88,60 @@
   margin-top: 30px;
 }
 
+.text a{
+  color: #A06DC8;
+  font-family: 'Open Sans bold';
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+.text1 a{
+  color: #A06DC8;
+  font-family: 'Open Sans bold';
+  font-size: 20px;
+  margin-bottom: 30px;
+  text-decoration: none;
+
+}
+
+.text2 a{
+  color: #A06DC8;
+  font-family: 'Open Sans bold';
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.text3 a{
+  color: #A06DC8;
+  font-family: 'Open Sans bold';
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+.text1 a:hover{
+  text-decoration: none;
+}
+.text2 a:hover{
+  text-decoration: none;
+}
+
+.text3 a:hover{
+  text-decoration: none;
+}
+
+.text2{
+  margin-top: -15px;
+}
+
+.text3{
+  margin-top: 15px;
+}
+
+.text1{
+  margin-top: -2px;
+}
+
 .opciones img{
     margin-top: 10px;
     margin-left: 25px;
@@ -66,4 +149,18 @@
 
 footer{
   text-align: center;
+}
+
+footer h1{
+  color: #A06DC8;
+  font-family: 'Noto Serif';
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+footer p{
+  color: #c2a7d7;
+  font-family: 'Noto Serif';
+  font-size: 10px;
+  padding-top: -20px;
 }
