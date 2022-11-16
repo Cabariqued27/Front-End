@@ -1,0 +1,88 @@
+.fase1 {
+    height: 45rem;
+    width: 100%;
+    background-color: #EFF1FC;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fase1 .container-fase {
+    border: 1px solid black;
+    width: 40%;
+    height: 37rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 10px 6px #777;
+}
+
+.fase1 label {
+    color: #A06DC8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fase1 input {
+    border-radius: 5px;
+    box-shadow: 0 10px 6px -6px #777;
+    border: 1px solid #A06DC8;
+    margin: 10px 0 5px 0;
+    padding: 2px 55px;
+}
+
+.fase1 select {
+    padding: 2px 73px;
+    border-radius: 5px;
+    box-shadow: 0 10px 6px -6px #777;
+    border: 1px solid #A06DC8;
+    margin: 10px 0 5px 0;
+}
+
+.title-fase1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 25px 0;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-button input[type=submit] {
+    padding: 2px 65px;
+    background-color: #A06DC8;
+    color: #EFF1FC;
+    cursor: pointer;
+}
+
+.container-button input[type=submit]:hover {
+    background-color: white;
+    color: #A06DC8;
+    transition: 1s;
+}
+
+.fase1 h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: #A06DC8;
+}
+
+.fase1 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 0 25px 0;
+}
+
+.fase1 .title-fase1 {
+    width: 30%;
+    height: 3rem;
+}
