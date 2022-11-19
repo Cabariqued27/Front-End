@@ -1,0 +1,29 @@
+.sidebar{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    min-width: 300px;
+}
+
+.content{
+    flex-grow: 1;
+    display: flex;
+
+}
+
+.inner-text{
+    font-size: 24px;
+    font-weight: 700;
+    margin: auto;
+}
+
+@media only screen and (max-width: 92px) {
+    .maincontainer{
+        flex-direction: column-reverse;
+    }
+
+    .sidebar{
+       height: 150px;
+    }
+}
+    
